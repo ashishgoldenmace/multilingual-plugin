@@ -13,7 +13,7 @@ function mltp_load_textdomain() {
     load_plugin_textdomain( 'multilingual-plugin', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
 }
 add_action( 'plugins_loaded', 'mltp_load_textdomain' );
-asfsdfgsdgsd
+// asfsdfgsdgsd
 // Example translated string
 function mltp_hello_world() {
     if(!is_admin()){
