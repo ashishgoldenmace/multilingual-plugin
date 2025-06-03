@@ -14,6 +14,7 @@ function mltp_load_textdomain() {
 }
 add_action( 'plugins_loaded', 'mltp_load_textdomain' );
 // asfsdfgsdgsd
+// safsdafg
 // Example translated string
 function mltp_hello_world() {
     if(!is_admin()){
