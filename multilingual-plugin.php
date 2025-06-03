@@ -21,4 +21,5 @@ function mltp_hello_world() {
         die;
     }
 }
+
 add_action( 'init', 'mltp_hello_world' );
