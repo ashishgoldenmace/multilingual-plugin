@@ -23,10 +23,10 @@ jobs:
           find . -type f -name "*.php" -print0 | xargs -0 -n1 php -l
 
       - name: Deploy via FTP
-        uses: sebastianpopp/ftp-action@v4.2.0
+        uses: sebastianpopp/ftp-action@v2.0.0
         with:
           host: ${{ secrets.FTP_HOST }}
-          username: ${{ secrets.FTP_USER }}
+          user: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASS }}
-          localDir: '.'  # This will upload the plugin root
+          localDir: '.'
           remoteDir: '/demo1/wp-content/plugins/multilingual-plugin'
