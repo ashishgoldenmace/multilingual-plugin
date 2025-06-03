@@ -12,10 +12,6 @@
 function mltp_load_textdomain() {
     load_plugin_textdomain( 'multilingual-plugin', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
 }
-
-
-
-
 add_action( 'plugins_loaded', 'mltp_load_textdomain' );
 
 // Example translated string
