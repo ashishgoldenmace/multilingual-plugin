@@ -29,4 +29,4 @@ jobs:
           user: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASS }}
           localDir: '.'
-          remoteDir: '/demo1/wp-content/plugins/multilingual-plugin'
+          remoteDir: '/htdocs/multilingual-plugin'
