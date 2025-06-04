@@ -13,12 +13,11 @@ function mltp_load_textdomain() {
     load_plugin_textdomain( 'multilingual-plugin', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
 }
 add_action( 'plugins_loaded', 'mltp_load_textdomain' );
-// asfsdfgsdgsd
-// safsdafg
+
 // Example translated string
 function mltp_hello_world() {
     if(!is_admin()){
-        echo '<p>' . esc_html__( 'Hello, world!', 'multilingual-plugin' ) . '</p>';
+        echo '<p>' . esc_html__( 'Hello, world! 11', 'multilingual-plugin' ) . '</p>';
         die;
     }
 }
